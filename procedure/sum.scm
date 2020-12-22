@@ -1,6 +1,6 @@
 ;peano arithmetic
-(defun peano-sum (x y)
+(define (peano-sum x y)
 (if (= x 0)
     y
-    (peano-sum (1- x) (1+ y) )))
+    (peano-sum (- x 1) (+ y 1) )))
 (print (peano-sum 3 4))
