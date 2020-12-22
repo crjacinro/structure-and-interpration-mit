@@ -6,6 +6,6 @@ A collection of code snippets in LISP based on the MIT OpenCourseWare on **Struc
 
 ## Setup Used
 
-### Initially, I used the Common Lisp dialect and interpreter but encountered a lot of issues when I reached higher-order procedures because of the differences of the syntax.
+- Initially, I used the Common Lisp dialect and interpreter but encountered a lot of issues when I reached higher-order procedures because of the differences of the syntax.
 
-### I switched to Scheme and used the [Chicken](https://www.call-cc.org/) compiler since the original book and videos were using Scheme.
+- I switched to Scheme and used the [Chicken](https://www.call-cc.org/) compiler since the original book and videos were using Scheme.
