@@ -34,12 +34,10 @@
     
 
 (define (sigma-int a b)
-    (define (ident x) x)
-    (define (next x) (+ 1 x))
     (sigma 
-      ident
+      (lambda (x) x)
         a 
-       next
+       (lambda (x) (+ 1 x))
         b)) 
 
 (print (sigma-int 1 5))
